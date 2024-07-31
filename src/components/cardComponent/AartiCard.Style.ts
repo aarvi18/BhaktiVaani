@@ -3,16 +3,13 @@ import { appColors } from "../../themes/appColors";
 
 export const styles = StyleSheet.create({
     buttonContainer: {
-        flexWrap: 'wrap',
         flexDirection: 'row',
-        justifyContent: 'space-around',
-        marginTop: 10,
     },
     card: {
-        marginVertical: 10,
-        backgroundColor: '#76b5c5',
+        margin: 10, // Add margin to space out the cards
+        backgroundColor: appColors.primary,
         width: 150,
-        height: 110,
+        height: 120,
         borderRadius: 8,
         alignItems: 'center',
         justifyContent: 'center',
@@ -22,8 +19,8 @@ export const styles = StyleSheet.create({
             height: 4,
         },
         shadowOpacity: 0.30,
-        shadowRadius: 4.65,
-        elevation: 8,
+        shadowRadius: 3.65,
+        elevation: 6,
     },
     cardTitle: {
         color: appColors.mainText,
@@ -37,4 +34,4 @@ export const styles = StyleSheet.create({
         height: 80,
         borderRadius: 5,
     },
-})
+});

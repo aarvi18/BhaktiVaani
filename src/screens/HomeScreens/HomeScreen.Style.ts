@@ -20,7 +20,6 @@ export const styles = StyleSheet.create({
         shadowOpacity: 0.30,
         shadowRadius: 4.65,
         elevation: 8,
-
     },
     headerImage: {
         width: '100%',
@@ -29,11 +28,10 @@ export const styles = StyleSheet.create({
     },
     textContainer: {
         marginTop: 15,
-        paddingHorizontal: 8,
         paddingVertical: 10,
         backgroundColor: appColors.white,
         margin: 8,
-        borderRadius: 8
+        borderRadius: 8,
     },
     title: {
         color: appColors.black,
@@ -42,6 +40,7 @@ export const styles = StyleSheet.create({
         borderLeftWidth: 4,
         borderColor: appColors.primary,
         paddingHorizontal: 10,
+        marginBottom: 10,
+        marginHorizontal: 10,
     },
-
 });

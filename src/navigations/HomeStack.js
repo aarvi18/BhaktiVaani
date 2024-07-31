@@ -26,7 +26,14 @@ function HomeStack() {
       <Stack.Screen
         name="AartiScreen"
         component={AartiScreen}
-        options={{ headerShown: false }}
+        options={{ 
+          title: 'Aarti',
+          headerShadowVisible: false,
+          headerStyle: {
+            backgroundColor: appColors.primary,
+          },
+          headerTintColor: '#fff',
+          }}
       />
     </Stack.Navigator>
   );

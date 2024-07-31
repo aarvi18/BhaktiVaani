@@ -17,7 +17,9 @@ const HomeScreen = ({ navigation }) => {
       </View>
       <View style={styles.textContainer}>
         <Text style={styles.title}>सभी देवी देवताओं की आरती।</Text>
-        <AartiCard navigation={navigation} />
+        <View style={{ flexWrap: 'wrap', flexDirection: 'row', justifyContent: 'space-evenly' }}>
+          <AartiCard navigation={navigation} />
+        </View>
       </View>
     </SafeAreaView>
   );
